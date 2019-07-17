@@ -1,0 +1,3 @@
+[submodule "library/AdvTools"]
+	path = library/AdvTools
+	url = git@advgitlab.eastasia.cloudapp.azure.com:WISE-IoT/AdvTools.git
