@@ -60,5 +60,10 @@ AC_FUNC_REALLOC
 AC_CHECK_FUNCS([gettimeofday memset socket strchr strdup strstr])
 
 AC_CONFIG_FILES([Makefile src/Makefile])
-AC_CONFIG_SUBDIRS([library/WiseCore/WiseCore_MQTT library/WiseCarrier/MQTT/WiseCarrier_MQTT_Linux])
+AC_CONFIG_SUBDIRS([	library/AdvTools/AdvCC
+					library/AdvTools/AdvJSON
+					library/AdvTools/AdvLog
+					library/WiseCore/WiseCore_MQTT 
+					library/WiseCarrier/MQTT/WiseCarrier_MQTT_Linux
+				   ])
 AC_OUTPUT
